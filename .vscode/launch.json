@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-CashLedgerApplication<cashledger>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "in.sliya.cashledger.CashLedgerApplication",
+            "projectName": "cashledger",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
