@@ -1,0 +1,460 @@
+2023-12-04T01:56:54.146+05:30  INFO 260148 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04T01:56:54.150+05:30  INFO 260148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-04T01:56:54.152+05:30  INFO 260148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-04T01:56:57.936+05:30  INFO 276304 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : Starting CashLedgerApplication using Java 17.0.9 with PID 276304 (/home/boby/projects/cashledger/target/classes started by boby in /home/boby/projects/cashledger)
+2023-12-04T01:56:57.938+05:30  INFO 276304 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-04T01:56:57.975+05:30  INFO 276304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-04T01:56:57.976+05:30  INFO 276304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-04T01:56:58.560+05:30  INFO 276304 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-04T01:56:58.578+05:30  INFO 276304 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2023-12-04T01:56:58.961+05:30  INFO 276304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-04T01:56:58.967+05:30  INFO 276304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-04T01:56:58.967+05:30  INFO 276304 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-12-04T01:56:58.999+05:30  INFO 276304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-04T01:56:59.000+05:30  INFO 276304 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1024 ms
+2023-12-04T01:56:59.063+05:30  INFO 276304 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-04T01:56:59.269+05:30  INFO 276304 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:~/ledgerdb user=LEDGERDB
+2023-12-04T01:56:59.270+05:30  INFO 276304 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-04T01:56:59.277+05:30  INFO 276304 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/ledgerdb'
+2023-12-04T01:56:59.392+05:30  INFO 276304 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-04T01:56:59.419+05:30  INFO 276304 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.2.Final
+2023-12-04T01:56:59.522+05:30  WARN 276304 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-12-04T01:56:59.612+05:30  INFO 276304 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-04T01:57:00.218+05:30  INFO 276304 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-04T01:57:00.225+05:30  INFO 276304 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04T01:57:00.320+05:30  WARN 276304 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-04T01:57:00.702+05:30  INFO 276304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-04T01:57:00.706+05:30  INFO 276304 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-12-04T01:57:00.762+05:30  INFO 276304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-04T01:57:00.775+05:30  INFO 276304 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : Started CashLedgerApplication in 3.158 seconds (process running for 3.626)
+2023-12-04T01:57:00.953+05:30  INFO 276304 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-04T01:57:00.953+05:30  INFO 276304 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-04T01:57:00.954+05:30  INFO 276304 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-04T01:57:48.160+05:30  INFO 276304 --- [http-nio-8080-exec-2] i.s.c.controllers.filters.LoggingFilter  : Logging Request  GET : /ledger/records
+2023-12-04T01:57:48.308+05:30  INFO 276304 --- [http-nio-8080-exec-2] i.s.c.controllers.filters.LoggingFilter  : Logging Response :application/json
+2023-12-04T01:58:00.029+05:30  INFO 276304 --- [http-nio-8080-exec-3] i.s.c.controllers.filters.LoggingFilter  : Logging Request  DELETE : /ledger/records/latest
+2023-12-04T01:58:00.036+05:30 TRACE 276304 --- [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1]
+2023-12-04T01:58:00.044+05:30 ERROR 276304 --- [http-nio-8080-exec-3] i.s.c.c.errors.ApiExceptionHandler       : error occurred: 
+
+org.springframework.dao.InvalidDataAccessApiUsageException: Unable to locate persister: java.util.Optional
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:371) ~[spring-orm-6.0.13.jar:6.0.13]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:234) ~[spring-orm-6.0.13.jar:6.0.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550) ~[spring-orm-6.0.13.jar:6.0.13]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:243) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703) ~[spring-aop-6.0.13.jar:6.0.13]
+	at in.sliya.cashledger.dao.LedgerRecordDao$$SpringCGLIB$$0.undoEntry(<generated>) ~[classes/:na]
+	at in.sliya.cashledger.modules.Ledger.undoEntry(Ledger.java:54) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699) ~[spring-aop-6.0.13.jar:6.0.13]
+	at in.sliya.cashledger.modules.Ledger$$SpringCGLIB$$0.undoEntry(<generated>) ~[classes/:na]
+	at in.sliya.cashledger.controllers.LedgerController.undoEntry(LedgerController.java:36) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at in.sliya.cashledger.controllers.filters.LoggingFilter.doFilter(LoggingFilter.java:30) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: java.lang.IllegalArgumentException: Unable to locate persister: java.util.Optional
+	at org.hibernate.internal.SessionImpl.fireDelete(SessionImpl.java:947) ~[hibernate-core-6.1.2.Final.jar:6.1.2.Final]
+	at org.hibernate.internal.SessionImpl.delete(SessionImpl.java:872) ~[hibernate-core-6.1.2.Final.jar:6.1.2.Final]
+	at org.hibernate.internal.SessionImpl.remove(SessionImpl.java:2284) ~[hibernate-core-6.1.2.Final.jar:6.1.2.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-6.0.13.jar:6.0.13]
+	at jdk.proxy4/jdk.proxy4.$Proxy126.remove(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-6.0.13.jar:6.0.13]
+	at jdk.proxy4/jdk.proxy4.$Proxy126.remove(Unknown Source) ~[na:na]
+	at in.sliya.cashledger.dao.LedgerRecordDao.undoEntry(LedgerRecordDao.java:43) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.0.13.jar:6.0.13]
+	... 75 common frames omitted
+Caused by: org.hibernate.UnknownEntityTypeException: Unable to locate persister: java.util.Optional
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.getEntityDescriptor(MappingMetamodelImpl.java:416) ~[hibernate-core-6.1.2.Final.jar:6.1.2.Final]
+	at org.hibernate.internal.SessionImpl.getEntityPersister(SessionImpl.java:1489) ~[hibernate-core-6.1.2.Final.jar:6.1.2.Final]
+	at org.hibernate.event.internal.DefaultDeleteEventListener.onDelete(DefaultDeleteEventListener.java:94) ~[hibernate-core-6.1.2.Final.jar:6.1.2.Final]
+	at org.hibernate.event.internal.DefaultDeleteEventListener.onDelete(DefaultDeleteEventListener.java:69) ~[hibernate-core-6.1.2.Final.jar:6.1.2.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-6.1.2.Final.jar:6.1.2.Final]
+	at org.hibernate.internal.SessionImpl.fireDelete(SessionImpl.java:941) ~[hibernate-core-6.1.2.Final.jar:6.1.2.Final]
+	... 99 common frames omitted
+
+2023-12-04T01:58:00.055+05:30  WARN 276304 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: Unable to locate persister: java.util.Optional]
+2023-12-04T01:58:00.056+05:30  INFO 276304 --- [http-nio-8080-exec-3] i.s.c.controllers.filters.LoggingFilter  : Logging Response :application/json
+2023-12-04T01:58:43.005+05:30  INFO 276304 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-04T01:58:43.012+05:30  INFO 276304 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-12-04T01:58:43.014+05:30  INFO 276304 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-12-04T01:58:43.027+05:30  INFO 276304 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04T01:58:43.033+05:30  INFO 276304 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-04T01:58:43.047+05:30  INFO 276304 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-04T01:58:43.156+05:30  INFO 276304 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : Starting CashLedgerApplication using Java 17.0.9 with PID 276304 (/home/boby/projects/cashledger/target/classes started by boby in /home/boby/projects/cashledger)
+2023-12-04T01:58:43.156+05:30  INFO 276304 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-04T01:58:43.338+05:30  INFO 276304 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-04T01:58:43.341+05:30  INFO 276304 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2023-12-04T01:58:43.397+05:30  INFO 276304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-04T01:58:43.398+05:30  INFO 276304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-04T01:58:43.398+05:30  INFO 276304 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-12-04T01:58:43.402+05:30  INFO 276304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-04T01:58:43.402+05:30  INFO 276304 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 243 ms
+2023-12-04T01:58:43.424+05:30  INFO 276304 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-12-04T01:58:43.459+05:30  INFO 276304 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn12: url=jdbc:h2:~/ledgerdb user=LEDGERDB
+2023-12-04T01:58:43.459+05:30  INFO 276304 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-12-04T01:58:43.459+05:30  INFO 276304 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/ledgerdb'
+2023-12-04T01:58:43.488+05:30  INFO 276304 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-04T01:58:43.489+05:30  WARN 276304 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-12-04T01:58:43.491+05:30  INFO 276304 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-04T01:58:43.515+05:30  INFO 276304 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-04T01:58:43.516+05:30  INFO 276304 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04T01:58:43.550+05:30  WARN 276304 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-04T01:58:43.668+05:30  INFO 276304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-04T01:58:43.670+05:30  INFO 276304 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-12-04T01:58:43.686+05:30  INFO 276304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-04T01:58:43.692+05:30  INFO 276304 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : Started CashLedgerApplication in 0.575 seconds (process running for 106.544)
+2023-12-04T01:58:43.695+05:30  INFO 276304 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-04T01:58:49.091+05:30  INFO 276304 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-04T01:58:49.091+05:30  INFO 276304 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-04T01:58:49.093+05:30  INFO 276304 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-12-04T01:58:49.094+05:30  INFO 276304 --- [http-nio-8080-exec-2] i.s.c.controllers.filters.LoggingFilter  : Logging Request  DELETE : /ledger/records/latest
+2023-12-04T01:58:49.099+05:30 TRACE 276304 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1]
+2023-12-04T01:58:49.112+05:30 TRACE 276304 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1000]
+2023-12-04T01:58:49.117+05:30  INFO 276304 --- [http-nio-8080-exec-2] i.s.c.controllers.filters.LoggingFilter  : Logging Response :null
+2023-12-04T02:28:53.475+05:30  INFO 276304 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04T02:28:53.477+05:30  INFO 276304 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-12-04T02:28:53.477+05:30  INFO 276304 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-12-04T02:28:56.363+05:30  INFO 278235 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : Starting CashLedgerApplication using Java 17.0.9 with PID 278235 (/home/boby/projects/cashledger/target/classes started by boby in /home/boby/projects/cashledger)
+2023-12-04T02:28:56.366+05:30  INFO 278235 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-04T02:28:56.401+05:30  INFO 278235 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-04T02:28:56.402+05:30  INFO 278235 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-04T02:28:56.976+05:30  INFO 278235 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-04T02:28:56.992+05:30  INFO 278235 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2023-12-04T02:28:57.365+05:30  INFO 278235 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-04T02:28:57.372+05:30  INFO 278235 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-04T02:28:57.372+05:30  INFO 278235 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-12-04T02:28:57.405+05:30  INFO 278235 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-04T02:28:57.406+05:30  INFO 278235 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1003 ms
+2023-12-04T02:28:57.471+05:30  INFO 278235 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-04T02:28:57.666+05:30  INFO 278235 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn1: url=jdbc:h2:~/ledgerdb user=LEDGERDB
+2023-12-04T02:28:57.668+05:30  INFO 278235 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-04T02:28:57.675+05:30  INFO 278235 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/ledgerdb'
+2023-12-04T02:28:57.790+05:30  INFO 278235 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-04T02:28:57.817+05:30  INFO 278235 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.2.Final
+2023-12-04T02:28:57.918+05:30  WARN 278235 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-12-04T02:28:58.007+05:30  INFO 278235 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-04T02:28:58.597+05:30  INFO 278235 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-04T02:28:58.603+05:30  INFO 278235 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04T02:28:58.692+05:30  WARN 278235 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-04T02:28:59.056+05:30  INFO 278235 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-04T02:28:59.060+05:30  INFO 278235 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-12-04T02:28:59.114+05:30  INFO 278235 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-04T02:28:59.126+05:30  INFO 278235 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : Started CashLedgerApplication in 3.065 seconds (process running for 3.567)
+2023-12-04T02:28:59.404+05:30  INFO 278235 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-04T02:28:59.405+05:30  INFO 278235 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-04T02:28:59.407+05:30  INFO 278235 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-12-04T02:29:16.825+05:30  INFO 278235 --- [http-nio-8080-exec-1] i.s.c.controllers.filters.LoggingFilter  : Logging Request  DELETE : /ledger/records/latest
+2023-12-04T02:29:16.954+05:30 TRACE 278235 --- [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1]
+2023-12-04T02:29:16.991+05:30 TRACE 278235 --- [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1000]
+2023-12-04T02:29:17.004+05:30 TRACE 278235 --- [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [one]
+2023-12-04T02:29:17.006+05:30 TRACE 278235 --- [http-nio-8080-exec-1] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [hundred]
+2023-12-04T02:29:17.018+05:30  INFO 278235 --- [http-nio-8080-exec-1] i.s.c.controllers.filters.LoggingFilter  : Logging Response :null
+2023-12-04T02:32:29.884+05:30  INFO 278235 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-04T02:32:29.888+05:30  INFO 278235 --- [Thread-6] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-12-04T02:32:29.889+05:30  INFO 278235 --- [Thread-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-12-04T02:32:29.898+05:30  INFO 278235 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04T02:32:29.900+05:30  INFO 278235 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-04T02:32:29.912+05:30  INFO 278235 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-12-04T02:32:30.019+05:30  INFO 278235 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : Starting CashLedgerApplication using Java 17.0.9 with PID 278235 (/home/boby/projects/cashledger/target/classes started by boby in /home/boby/projects/cashledger)
+2023-12-04T02:32:30.019+05:30  INFO 278235 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-04T02:32:30.189+05:30  INFO 278235 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-04T02:32:30.191+05:30  INFO 278235 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-12-04T02:32:30.258+05:30  INFO 278235 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-04T02:32:30.259+05:30  INFO 278235 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-04T02:32:30.259+05:30  INFO 278235 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-12-04T02:32:30.264+05:30  INFO 278235 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-04T02:32:30.264+05:30  INFO 278235 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 242 ms
+2023-12-04T02:32:30.287+05:30  INFO 278235 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-12-04T02:32:30.325+05:30  INFO 278235 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn12: url=jdbc:h2:~/ledgerdb user=LEDGERDB
+2023-12-04T02:32:30.325+05:30  INFO 278235 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-12-04T02:32:30.325+05:30  INFO 278235 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/ledgerdb'
+2023-12-04T02:32:30.354+05:30  INFO 278235 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-04T02:32:30.356+05:30  WARN 278235 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-12-04T02:32:30.358+05:30  INFO 278235 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-04T02:32:30.382+05:30  INFO 278235 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-04T02:32:30.383+05:30  INFO 278235 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04T02:32:30.416+05:30  WARN 278235 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-04T02:32:30.531+05:30  INFO 278235 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-04T02:32:30.534+05:30  INFO 278235 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-12-04T02:32:30.550+05:30  INFO 278235 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-04T02:32:30.556+05:30  INFO 278235 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : Started CashLedgerApplication in 0.568 seconds (process running for 214.997)
+2023-12-04T02:32:30.559+05:30  INFO 278235 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-04T02:32:38.031+05:30  INFO 278235 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-04T02:32:38.031+05:30  INFO 278235 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-04T02:32:38.033+05:30  INFO 278235 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-12-04T02:32:38.035+05:30  INFO 278235 --- [http-nio-8080-exec-3] i.s.c.controllers.filters.LoggingFilter  : Logging Request  DELETE : /ledger/records/latest
+2023-12-04T02:32:38.041+05:30 TRACE 278235 --- [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1]
+2023-12-04T02:32:38.045+05:30 TRACE 278235 --- [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1000]
+2023-12-04T02:32:38.049+05:30 TRACE 278235 --- [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [one]
+2023-12-04T02:32:38.051+05:30 TRACE 278235 --- [http-nio-8080-exec-3] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [hundred]
+2023-12-04T02:32:38.053+05:30  INFO 278235 --- [http-nio-8080-exec-3] i.s.c.controllers.filters.LoggingFilter  : Logging Response :null
+2023-12-04T02:32:52.223+05:30  INFO 278235 --- [http-nio-8080-exec-2] i.s.c.controllers.filters.LoggingFilter  : Logging Request  POST : /ledger/records
+2023-12-04T02:32:52.266+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [nice]
+2023-12-04T02:32:52.268+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [and]
+2023-12-04T02:32:52.270+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [FLOAT] - [200.0]
+2023-12-04T02:32:52.271+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [2] as [TIMESTAMP] - [2023-12-04T02:32:52.270137720]
+2023-12-04T02:32:52.271+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [3] as [VARCHAR] - [nice and nice]
+2023-12-04T02:32:52.271+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [4] as [TIMESTAMP] - [2023-12-04T02:32:52.270171106]
+2023-12-04T02:32:52.271+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [5] as [INTEGER] - [1]
+2023-12-04T02:32:52.272+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [FLOAT] - [1.0]
+2023-12-04T02:32:52.273+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [2] as [VARCHAR] - [nice]
+2023-12-04T02:32:52.273+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [FLOAT] - [1.0]
+2023-12-04T02:32:52.274+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [2] as [VARCHAR] - [and]
+2023-12-04T02:32:52.276+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [FLOAT] - [2.0]
+2023-12-04T02:32:52.276+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [2] as [VARCHAR] - [nice]
+2023-12-04T02:32:52.287+05:30  INFO 278235 --- [http-nio-8080-exec-2] i.s.c.controllers.filters.LoggingFilter  : Logging Response :null
+2023-12-04T02:32:57.118+05:30  INFO 278235 --- [http-nio-8080-exec-4] i.s.c.controllers.filters.LoggingFilter  : Logging Request  GET : /ledger/records
+2023-12-04T02:32:57.134+05:30  INFO 278235 --- [http-nio-8080-exec-4] i.s.c.controllers.filters.LoggingFilter  : Logging Response :application/json
+2023-12-04T02:33:14.775+05:30  INFO 278235 --- [http-nio-8080-exec-6] i.s.c.controllers.filters.LoggingFilter  : Logging Request  DELETE : /ledger/records/latest
+2023-12-04T02:33:14.776+05:30 TRACE 278235 --- [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1]
+2023-12-04T02:33:14.778+05:30 TRACE 278235 --- [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1]
+2023-12-04T02:33:14.779+05:30 TRACE 278235 --- [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [nice]
+2023-12-04T02:33:14.781+05:30 TRACE 278235 --- [http-nio-8080-exec-6] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [and]
+2023-12-04T02:33:14.786+05:30 ERROR 278235 --- [http-nio-8080-exec-6] i.s.c.c.errors.ApiExceptionHandler       : error occurred: 
+
+org.springframework.dao.InvalidDataAccessApiUsageException: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call
+	at org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessExceptionIfPossible(EntityManagerFactoryUtils.java:400) ~[spring-orm-6.0.13.jar:6.0.13]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:234) ~[spring-orm-6.0.13.jar:6.0.13]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550) ~[spring-orm-6.0.13.jar:6.0.13]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:243) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703) ~[spring-aop-6.0.13.jar:6.0.13]
+	at in.sliya.cashledger.dao.TagDao$$SpringCGLIB$$0.updateOrRemoveFreq(<generated>) ~[classes/:na]
+	at in.sliya.cashledger.modules.Ledger.lambda$undoEntry$1(Ledger.java:57) ~[classes/:na]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) ~[na:na]
+	at in.sliya.cashledger.modules.Ledger.undoEntry(Ledger.java:55) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:699) ~[spring-aop-6.0.13.jar:6.0.13]
+	at in.sliya.cashledger.modules.Ledger$$SpringCGLIB$$0.undoEntry(<generated>) ~[classes/:na]
+	at in.sliya.cashledger.controllers.LedgerController.undoEntry(LedgerController.java:36) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at in.sliya.cashledger.controllers.filters.LoggingFilter.doFilter(LoggingFilter.java:30) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+Caused by: jakarta.persistence.TransactionRequiredException: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:295) ~[spring-orm-6.0.13.jar:6.0.13]
+	at jdk.proxy5/jdk.proxy5.$Proxy145.remove(Unknown Source) ~[na:na]
+	at in.sliya.cashledger.dao.TagDao.updateOrRemoveFreq(TagDao.java:39) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.0.13.jar:6.0.13]
+	... 72 common frames omitted
+
+2023-12-04T02:33:14.794+05:30  WARN 278235 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.InvalidDataAccessApiUsageException: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call]
+2023-12-04T02:33:14.795+05:30  INFO 278235 --- [http-nio-8080-exec-6] i.s.c.controllers.filters.LoggingFilter  : Logging Response :application/json
+2023-12-04T02:34:03.822+05:30  INFO 278235 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-04T02:34:03.825+05:30  INFO 278235 --- [Thread-8] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-12-04T02:34:03.826+05:30  INFO 278235 --- [Thread-8] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-12-04T02:34:03.832+05:30  INFO 278235 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04T02:34:03.835+05:30  INFO 278235 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-12-04T02:34:03.836+05:30  INFO 278235 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-12-04T02:34:03.946+05:30  INFO 278235 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : Starting CashLedgerApplication using Java 17.0.9 with PID 278235 (/home/boby/projects/cashledger/target/classes started by boby in /home/boby/projects/cashledger)
+2023-12-04T02:34:03.946+05:30  INFO 278235 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-12-04T02:34:04.083+05:30  INFO 278235 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-04T02:34:04.085+05:30  INFO 278235 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2023-12-04T02:34:04.140+05:30  INFO 278235 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-04T02:34:04.141+05:30  INFO 278235 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-04T02:34:04.141+05:30  INFO 278235 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-12-04T02:34:04.145+05:30  INFO 278235 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-04T02:34:04.145+05:30  INFO 278235 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 198 ms
+2023-12-04T02:34:04.167+05:30  INFO 278235 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-12-04T02:34:04.168+05:30  INFO 278235 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection conn22: url=jdbc:h2:~/ledgerdb user=LEDGERDB
+2023-12-04T02:34:04.168+05:30  INFO 278235 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-12-04T02:34:04.169+05:30  INFO 278235 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:~/ledgerdb'
+2023-12-04T02:34:04.196+05:30  INFO 278235 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-04T02:34:04.197+05:30  WARN 278235 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2023-12-04T02:34:04.199+05:30  INFO 278235 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-04T02:34:04.222+05:30  INFO 278235 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-04T02:34:04.222+05:30  INFO 278235 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-04T02:34:04.254+05:30  WARN 278235 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-04T02:34:04.386+05:30  INFO 278235 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-04T02:34:04.389+05:30  INFO 278235 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-12-04T02:34:04.407+05:30  INFO 278235 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-04T02:34:04.413+05:30  INFO 278235 --- [restartedMain] i.s.cashledger.CashLedgerApplication     : Started CashLedgerApplication in 0.494 seconds (process running for 308.854)
+2023-12-04T02:34:04.415+05:30  INFO 278235 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-04T02:34:11.416+05:30  INFO 278235 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-04T02:34:11.416+05:30  INFO 278235 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-04T02:34:11.419+05:30  INFO 278235 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-12-04T02:34:11.420+05:30  INFO 278235 --- [http-nio-8080-exec-2] i.s.c.controllers.filters.LoggingFilter  : Logging Request  POST : /ledger/records
+2023-12-04T02:34:11.434+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [nice]
+2023-12-04T02:34:11.436+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [and]
+2023-12-04T02:34:11.439+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [FLOAT] - [200.0]
+2023-12-04T02:34:11.439+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [2] as [TIMESTAMP] - [2023-12-04T02:34:11.438553522]
+2023-12-04T02:34:11.439+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [3] as [VARCHAR] - [nice and nice]
+2023-12-04T02:34:11.440+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [4] as [TIMESTAMP] - [2023-12-04T02:34:11.438586907]
+2023-12-04T02:34:11.440+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [5] as [INTEGER] - [1]
+2023-12-04T02:34:11.441+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [FLOAT] - [1.0]
+2023-12-04T02:34:11.441+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [2] as [VARCHAR] - [nice]
+2023-12-04T02:34:11.442+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [FLOAT] - [1.0]
+2023-12-04T02:34:11.442+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [2] as [VARCHAR] - [and]
+2023-12-04T02:34:11.443+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [FLOAT] - [2.0]
+2023-12-04T02:34:11.444+05:30 TRACE 278235 --- [http-nio-8080-exec-2] org.hibernate.orm.jdbc.bind              : binding parameter [2] as [VARCHAR] - [nice]
+2023-12-04T02:34:11.447+05:30  INFO 278235 --- [http-nio-8080-exec-2] i.s.c.controllers.filters.LoggingFilter  : Logging Response :null
+2023-12-04T02:34:16.675+05:30  INFO 278235 --- [http-nio-8080-exec-3] i.s.c.controllers.filters.LoggingFilter  : Logging Request  GET : /ledger/records
+2023-12-04T02:34:16.681+05:30  INFO 278235 --- [http-nio-8080-exec-3] i.s.c.controllers.filters.LoggingFilter  : Logging Response :application/json
+2023-12-04T02:34:22.510+05:30  INFO 278235 --- [http-nio-8080-exec-4] i.s.c.controllers.filters.LoggingFilter  : Logging Request  DELETE : /ledger/records/latest
+2023-12-04T02:34:22.512+05:30 TRACE 278235 --- [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1]
+2023-12-04T02:34:22.514+05:30 TRACE 278235 --- [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1000]
+2023-12-04T02:34:22.515+05:30 TRACE 278235 --- [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [one]
+2023-12-04T02:34:22.516+05:30 TRACE 278235 --- [http-nio-8080-exec-4] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [hundred]
+2023-12-04T02:34:22.517+05:30  INFO 278235 --- [http-nio-8080-exec-4] i.s.c.controllers.filters.LoggingFilter  : Logging Response :null
+2023-12-04T02:35:00.497+05:30  INFO 278235 --- [http-nio-8080-exec-6] i.s.c.controllers.filters.LoggingFilter  : Logging Request  GET : /ledger/records
+2023-12-04T02:35:00.501+05:30  INFO 278235 --- [http-nio-8080-exec-6] i.s.c.controllers.filters.LoggingFilter  : Logging Response :application/json
+2023-12-04T02:35:31.808+05:30  INFO 278235 --- [http-nio-8080-exec-7] i.s.c.controllers.filters.LoggingFilter  : Logging Request  DELETE : /ledger/records/latest
+2023-12-04T02:35:31.810+05:30 TRACE 278235 --- [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1]
+2023-12-04T02:35:31.811+05:30 TRACE 278235 --- [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [INTEGER] - [1]
+2023-12-04T02:35:31.812+05:30 TRACE 278235 --- [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [nice]
+2023-12-04T02:35:31.814+05:30 TRACE 278235 --- [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [FLOAT] - [1.0]
+2023-12-04T02:35:31.814+05:30 TRACE 278235 --- [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter [2] as [VARCHAR] - [nice]
+2023-12-04T02:35:31.815+05:30 TRACE 278235 --- [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [and]
+2023-12-04T02:35:31.816+05:30 TRACE 278235 --- [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [and]
+2023-12-04T02:35:31.817+05:30 TRACE 278235 --- [http-nio-8080-exec-7] org.hibernate.orm.jdbc.bind              : binding parameter [1] as [VARCHAR] - [nice]
+2023-12-04T02:35:31.818+05:30  INFO 278235 --- [http-nio-8080-exec-7] i.s.c.controllers.filters.LoggingFilter  : Logging Response :null
